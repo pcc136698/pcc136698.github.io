@@ -1,0 +1,28 @@
+* {
+	font-family: 'Lato', sans-serif;
+}
+
+.navbar {
+	background-color: rgba(215, 230, 247, 1);
+}
+
+#nav-bunnyicon {
+	width: 1.5em;
+	height: 1.5em;
+	margin: 0 1em;
+}
+
+
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding: 0;
+}
+
+#nav-item-po {
+	background-color: rgba(89, 127, 189, 0.5);
+	padding: 0.1em; 
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+	text-decoration: underline;
+}
+

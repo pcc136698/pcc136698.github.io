@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="icon" href="https://cdn4.iconfinder.com/data/icons/animal-thinline-icons-set/144/Rabbit-512.png">
+	<title>The Bunny Gallery. | Home</title>
+	<meta name="description" content="The website for viewing and sharing bunny pics.">
+	<meta name=”viewport” content=”width=device-width, initial-scale=1″>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+	$('[data-toggle="tooltip"]').tooltip();
+	});
+	</script>
+
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet"> 
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light">
+		<a class="navbar-brand" href="index.html"><img src="https://cdn4.iconfinder.com/data/icons/animal-thinline-icons-set/144/Rabbit-512.png" id="nav-bunnyicon">The Bunny Gallery.</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav">
+				<li class="nav-item active">
+					<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="gallery.html">Gallery</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="contact.html">Contact</a>
+				</li>
+			</ul>
+		</div>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="https://bunnygreenies.herokuapp.com/" data-toggle="tooltip" title="External site by Nyandereian" data-placement="bottom">BunnyGreenies</a>
+				</li>
+				<li class="nav-item" id="nav-item-po">
+					<a class="nav-link" href="docent.html" data-toggle="tooltip" title="Voor de docent" data-placement="bottom">HTML/CSS PO</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<section class="header">
+		<div id="header-container">
+			<h1>Different bunnies.
+			<br> 
+			Different pics.</h1>
+			<p id="subheader">According to the <a href="https://arba.net/" target="_blank" data-toggle="tooltip" title="(ARBA)" data-placement="right">American Rabbit Breeders Association</a>, there are a total of <span id="n-breeds" data-toggle="tooltip" title="As of Jan. 2016" data-placement="right">49</span> unique rabbit breeds out there in our world.</p>
+			<p id="subheader-paragraph">This website offers all the best pictures of these beautiful creatures in a simple, organized way for your viewing and/or sharing needs.</p>
+			<button type="button" class="btn btn-outline-primary btn-lg" onclick="window.location.href = 'gallery.html';">Visit Gallery</button>
+		</div>
+	</section>
+	<section class="gallery">
+		<div id="gallery-container">
+			<h2>Everything gathered here.
+			<br>
+			Simple.
+			</h2>
+			<h3>Browse through endless pictures to your heart's content. Found a picture you like? Share it with just one click of a button. 
+				<br>
+				<span id="gallery-container-h3-catchline">
+				It has never been so easy.</span>
+			</h3>
+			<img src="https://clipart4biz.com/images/bunny-transparent-7.png">
+		</div>
+	</section>
+	<section class="breeds">
+	<div id="breeds-container">
+			<h2>More than 40 unique breeds.
+			<br>
+			It can't get more diverse.
+			</h2>
+			<img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/1-beige-bunny-rabbit-on-white-background-american-images-inc.jpg">
+			<h3>From the Lionhead rabbit to the English lop — our gallery has pictures of all the bunnies. <span id="breeds-container-h3-catchline">For free. No questions asked.</span></h3>
+		</div>
+	</section>
+	<section class="bunnygreenies">
+		<div id="bunnygreenies-container">
+			<h2>What foods are safe for my bunny?
+				<br>
+			Find out with Bunnygreenies.</h2>
+			<h3>Do you own a bunny? With this website, you'll know immediately what you should and shouldn't feed your pet. Just search for the food in question and you'll get an answer.</h3>
+			<button class="btn btn-danger btn-lg" onclick="window.location.href = 'https://bunnygreenies.herokuapp.com/';">Go to BunnyGreenies</button>
+		</div>
+	</section>
+	<section class="footer">
+		<div id="footer-container">
+			<ul id="main">
+				<p>Main</p>
+				<a href="index.html">Home</a>
+				<a href="gallery.html">Gallery</a>
+			</ul>
+			<ul id="contact">
+				<p>Contact</p>
+				<a href="contact.html">Contact</a>
+				<a href="https://www.instagram.com/jasperdukers.fanaccount/"  target="_blank">Instagram</a>
+				<a href="https://www.pcc.nu/"  target="_blank">PCC</a>
+			</ul>
+			<ul id="PO">
+				<p>HTML/CSS PO</p>
+				<a href="docent.html">Voor de Docent</a>
+			</ul>
+			<ul id="specs">
+				<p>Specifications</p>
+				<p>Ver. 1.2.5</p>
+				<p>Date finished: 10/01/2020</p>
+				<p>Hosted by heroku.com</p>
+				<p>For educational purposes only.</p>
+			</ul>
+		</div>
+	</section>
+</body>
+</html>

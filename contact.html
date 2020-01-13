@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="icon" href="https://cdn4.iconfinder.com/data/icons/animal-thinline-icons-set/144/Rabbit-512.png">
+	<title>The Bunny Gallery. | Contact</title>
+	<meta name="description" content="The website for viewing and sharing bunny pics.">
+	<meta name=”viewport” content=”width=device-width, initial-scale=1″>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+	$('[data-toggle="tooltip"]').tooltip();
+	});
+	</script>
+
+	<link rel="stylesheet" type="text/css" href="contact.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet"> 
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light">
+		<a class="navbar-brand" href="index.html"><img src="https://cdn4.iconfinder.com/data/icons/animal-thinline-icons-set/144/Rabbit-512.png" id="nav-bunnyicon">The Bunny Gallery.</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="index.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="gallery.html">Gallery</a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="contact.html">Contact</a>
+				</li>
+			</ul>
+		</div>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="https://bunnygreenies.herokuapp.com/" data-toggle="tooltip" title="External site by Nyandereian" data-placement="bottom">BunnyGreenies</a>
+				</li>
+				<li class="nav-item" id="nav-item-po">
+					<a class="nav-link" href="docent.html" data-toggle="tooltip" title="Voor de docent" data-placement="bottom">HTML/CSS PO</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<h2>Contact</h2>
+	<form>
+		<div class="form-group">
+			<div class="row">
+				<div class="col">
+					<input type="text" class="form-control" placeholder="First name" autofocus>
+				</div>
+				<div class="col">
+					<input type="text" class="form-control" placeholder="Last name">
+				</div>
+			</div>
+	    	<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+			 <textarea class="form-control" rows="5" id="comment" placeholder="Message"></textarea>
+	  	</div>
+	  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+	<section class="footer">
+		<div id="footer-container">
+			<ul id="main">
+				<p>Main</p>
+				<a href="index.html">Home</a>
+				<a href="gallery.html">Gallery</a>
+			</ul>
+			<ul id="contact">
+				<p>Contact</p>
+				<a href="contact.html">Contact</a>
+				<a href="https://www.instagram.com/jasperdukers.fanaccount/"  target="_blank">Instagram</a>
+				<a href="https://www.pcc.nu/"  target="_blank">PCC</a>
+			</ul>
+			<ul id="PO">
+				<p>HTML/CSS PO</p>
+				<a href="docent.html">Voor de Docent</a>
+			</ul>
+			<ul id="specs">
+				<p>Specifications</p>
+				<p>Ver. 1.2.5</p>
+				<p>Date finished: 10/01/2020</p>
+				<p>Hosted by heroku.com</p>
+				<p>For educational purposes only.</p>
+			</ul>
+		</div>
+	</section>
+</body>
+</html>

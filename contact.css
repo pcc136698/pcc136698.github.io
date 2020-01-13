@@ -1,0 +1,85 @@
+* {
+	font-family: 'Lato', sans-serif;
+}
+
+html {
+	background-color: rgba(215, 230, 247, 1);
+}
+
+body {
+		background-color: rgba(215, 230, 247, 1) !important;
+}
+
+.navbar {
+	background-color: rgba(215, 230, 247, 1);
+}
+
+#nav-bunnyicon {
+	width: 1.5em;
+	height: 1.5em;
+	margin: 0 1em;
+}
+
+
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding: 0;
+}
+
+#nav-item-po {
+	background-color: rgba(89, 127, 189, 0.5);
+	padding: 0.1em; 
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+	text-decoration: underline;
+}
+
+h2 {
+	font-style: italic;
+	padding-top: 50px;
+	text-align: center;
+}
+
+form {
+	background-color: rgba(215, 230, 247, 0.5);
+	padding-top: 2em;
+	width: 66.6%;
+	margin: auto;
+	padding: 4em 2em;
+}
+
+input {
+	margin: 0.5em 0 !important;
+}
+
+.footer {
+	width: 100%;
+	background-color: #16202b;
+	height: 30rem;
+}
+
+#footer-container {
+	width: 66.6%;
+	margin: auto;
+	padding-top: 5em;
+	font-size: 1.25em;
+}
+
+#footer-container ul {
+	display: inline-block;
+	margin: 0 1.5em;
+	vertical-align: top;
+}
+
+#footer-container a {
+	font-size: 0.8em;
+	display: block;
+}
+
+#footer-container p:not(:first-child) {
+	font-size: 0.8em;
+}
+
+#footer-container p, li {
+	color: rgba(255, 255, 255, 0.5);
+}
